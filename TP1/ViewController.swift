@@ -39,19 +39,13 @@ class ViewController: UIViewController, UITableViewDataSource {
         todo.sort(by: {$0.datetache! < $1.datetache!})
         
         myTableView.reloadData()
-        }ƒ
+        }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-                    /*let description = "Description de la tache"
-                    let titre = "tache a effectuer"
-        let d = Todo(nom: titre, desc: description)
-                    todo.append(d)*/
-
-                
-                myTableView.dataSource = self
+               myTableView.dataSource = self
     }
     
     @IBAction func ajouterTache(_ unwindSegue: UIStoryboardSegue) {
