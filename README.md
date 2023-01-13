@@ -10,11 +10,12 @@ L'objectif des séances de TP est de développer une application complète de ty
 
 La page principale de l'application affiche les différentes tâches dans une TableView. Le bouton "+" en haut à droite permet d'ajouter de nouvelles tâches. 
 Le bouton "Tri" en haut à gauche permet de trier les tâches par ordre chronologique de réalisation.
-Chaque cellule de la TableView affiche le titre de la catégorie ainsi qu'un bouton pour valider ou non la tâche. Le bouton de validation se présente comme une case à coché 
-grâce à la classe Checkpoint trouvé sur internet. Le principe est qu'une image de case à coché est créé ainsi Lorsque l'utilisateur clique sur la case à cocher, 
+Chaque cellule de la TableView affiche le titre de la tâche ainsi qu'une case à cocher ou non. Le bouton de validation se présente donc comme une case à coché 
+grâce à la classe Checkpoint trouvé sur internet. Le principe est qu'une image de case à coché est créé ainsi lorsque l'utilisateur clique sur la case à cocher, 
 la propriété "checked" est basculée et un événement "valueChanged" est envoyé ce qui permet de changer l'image.
 En faisant un swipe vers la gauche sur la cellule de la TableView, on supprime la tâche.
 
+![](image1.png)
 # 2. Ajout d'une tâche
 
 L'ajout d'une tâche se compose en trois parties : 
@@ -22,11 +23,12 @@ L'ajout d'une tâche se compose en trois parties :
 - Choix du titre de la tâche 
 - Choix de la description de la tâche
 - Choix de la date de la tâche
-
+![](image2.png)
 # 3. Affichage le détail de la tâche
 
 Lorsque l'on clique dans une cellule du TableView on est directement envoyé dans le détail de la tâche qui affiche le titre, la description et la date.
  
+![](image3.png)
 
 # 4. Conclusion
 
