@@ -23,6 +23,8 @@ L'ajout d'une tâche se compose en trois parties :
 - Choix du titre de la tâche 
 - Choix de la description de la tâche
 - Choix de la date de la tâche
+
+
 ![](image2.png)
 # 3. Affichage le détail de la tâche
 
